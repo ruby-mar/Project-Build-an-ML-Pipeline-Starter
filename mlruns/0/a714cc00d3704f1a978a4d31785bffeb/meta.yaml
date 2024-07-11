@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a714cc00d3704f1a978a4d31785bffeb/artifacts
+end_time: 1720660855572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a714cc00d3704f1a978a4d31785bffeb
+run_name: crawling-skink-688
+run_uuid: a714cc00d3704f1a978a4d31785bffeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720660822054
+status: 3
+tags: []
+user_id: root

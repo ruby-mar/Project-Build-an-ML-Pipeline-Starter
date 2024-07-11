@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/52f2ecb4139745839e388b5a10af7c55/artifacts
+end_time: 1720661622858
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52f2ecb4139745839e388b5a10af7c55
+run_name: valuable-loon-213
+run_uuid: 52f2ecb4139745839e388b5a10af7c55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720661571657
+status: 3
+tags: []
+user_id: root

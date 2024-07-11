@@ -1,0 +1,283 @@
+2024-07-09 21:10:33,750 INFO    StreamThr :1921 [internal.py:wandb_internal():87] W&B internal server running at pid: 1921, started at: 2024-07-09 21:10:33.749723
+2024-07-09 21:10:33,751 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status
+2024-07-09 21:10:33,752 INFO    WriterThread:1921 [datastore.py:open_for_write():85] open: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/run-bqlnkh61.wandb
+2024-07-09 21:10:33,753 DEBUG   SenderThread:1921 [sender.py:send():334] send: header
+2024-07-09 21:10:33,775 DEBUG   SenderThread:1921 [sender.py:send():334] send: run
+2024-07-09 21:10:34,042 INFO    SenderThread:1921 [dir_watcher.py:__init__():216] watching files in: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files
+2024-07-09 21:10:34,042 INFO    SenderThread:1921 [sender.py:_start_run_threads():1065] run started: bqlnkh61 with start time 1720577433.749862
+2024-07-09 21:10:34,042 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: summary_record
+2024-07-09 21:10:34,043 INFO    SenderThread:1921 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-09 21:10:34,044 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: check_version
+2024-07-09 21:10:34,044 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: check_version
+2024-07-09 21:10:34,117 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: run_start
+2024-07-09 21:10:34,143 DEBUG   HandlerThread:1921 [system_info.py:__init__():31] System info init
+2024-07-09 21:10:34,143 DEBUG   HandlerThread:1921 [system_info.py:__init__():46] System info init done
+2024-07-09 21:10:34,143 INFO    HandlerThread:1921 [system_monitor.py:start():151] Starting system monitor
+2024-07-09 21:10:34,143 INFO    SystemMonitor:1921 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-07-09 21:10:34,143 INFO    HandlerThread:1921 [system_monitor.py:probe():172] Collecting system info
+2024-07-09 21:10:34,144 INFO    SystemMonitor:1921 [interfaces.py:start():168] Started cpu
+2024-07-09 21:10:34,145 INFO    SystemMonitor:1921 [interfaces.py:start():168] Started disk
+2024-07-09 21:10:34,145 INFO    SystemMonitor:1921 [interfaces.py:start():168] Started gpu
+2024-07-09 21:10:34,146 INFO    SystemMonitor:1921 [interfaces.py:start():168] Started memory
+2024-07-09 21:10:34,146 INFO    SystemMonitor:1921 [interfaces.py:start():168] Started network
+2024-07-09 21:10:34,155 DEBUG   HandlerThread:1921 [system_info.py:probe():195] Probing system
+2024-07-09 21:10:34,173 DEBUG   HandlerThread:1921 [system_info.py:_probe_git():180] Probing git
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_info.py:_probe_git():188] Probing git done
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_info.py:probe():241] Probing system done
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_monitor.py:probe():181] {'os': 'Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-07-10T02:10:34.156007', 'startedAt': '2024-07-10T02:10:33.745211', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'eda.ipynb', 'root': '/root/miniconda3/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/ruby-mar/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'host': 'DESKTOP-PB897BH', 'username': 'root', 'executable': '/root/miniconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}, {'current': 2496.0, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 14.651885986328125}, 'gpu': 'NVIDIA GeForce RTX 3070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070', 'memory_total': 8589934592}], 'memory': {'total': 7.65350341796875}}
+2024-07-09 21:10:34,179 INFO    HandlerThread:1921 [system_monitor.py:probe():182] Finished collecting system info
+2024-07-09 21:10:34,179 INFO    HandlerThread:1921 [system_monitor.py:probe():185] Publishing system info
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_info.py:_save_pip():67] Saving pip packages done
+2024-07-09 21:10:34,179 DEBUG   HandlerThread:1921 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-07-09 21:10:35,043 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-summary.json
+2024-07-09 21:10:35,044 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/requirements.txt
+2024-07-09 21:10:35,044 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/conda-environment.yaml
+2024-07-09 21:10:35,549 DEBUG   HandlerThread:1921 [system_info.py:_save_conda():86] Saving conda packages done
+2024-07-09 21:10:35,549 DEBUG   HandlerThread:1921 [system_info.py:_save_code():89] Saving code
+2024-07-09 21:10:35,549 WARNING HandlerThread:1921 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-07-09 21:10:35,549 DEBUG   HandlerThread:1921 [system_info.py:_save_patches():127] Saving git patches
+2024-07-09 21:10:35,636 DEBUG   HandlerThread:1921 [system_info.py:_save_patches():169] Saving git patches done
+2024-07-09 21:10:35,637 INFO    HandlerThread:1921 [system_monitor.py:probe():187] Finished publishing system info
+2024-07-09 21:10:35,639 DEBUG   SenderThread:1921 [sender.py:send():334] send: files
+2024-07-09 21:10:35,639 INFO    SenderThread:1921 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-07-09 21:10:35,640 INFO    SenderThread:1921 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-07-09 21:10:35,650 DEBUG   SenderThread:1921 [sender.py:send():334] send: telemetry
+2024-07-09 21:10:35,651 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-09 21:10:35,651 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: stop_status
+2024-07-09 21:10:35,981 INFO    Thread-15 :1921 [upload_job.py:push():143] Uploaded file /tmp/tmpn267zluqwandb/3aq28p54-wandb-metadata.json
+2024-07-09 21:10:36,043 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/conda-environment.yaml
+2024-07-09 21:10:36,043 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-metadata.json
+2024-07-09 21:10:36,043 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/diff.patch
+2024-07-09 21:10:36,056 INFO    Thread-16 :1921 [upload_job.py:push():143] Uploaded file /tmp/tmpn267zluqwandb/yb2tcjo4-diff.patch
+2024-07-09 21:10:36,082 DEBUG   SenderThread:1921 [sender.py:send():334] send: use_artifact
+2024-07-09 21:10:37,043 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:10:39,044 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:10:39,401 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:10:44,402 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:10:49,403 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:10:50,649 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:10:50,650 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:10:54,404 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:10:55,650 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:10:59,405 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:00,652 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:04,408 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:05,051 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/config.yaml
+2024-07-09 21:11:05,652 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:09,516 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:10,653 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:14,518 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:15,655 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:19,519 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:20,656 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:24,520 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:25,657 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:29,521 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:30,659 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:34,147 DEBUG   SystemMonitor:1921 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-07-09 21:11:34,148 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:11:35,148 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:35,660 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:37,060 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:11:40,660 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:40,787 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:45,662 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:45,787 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:50,663 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:50,788 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:11:55,664 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:11:55,790 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:00,665 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:00,791 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:04,148 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:12:05,667 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:06,149 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:10,668 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:11,150 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:15,669 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:16,151 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:20,670 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:21,152 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:25,671 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:26,153 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:30,672 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:31,154 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:34,148 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:12:35,673 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:37,149 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:40,674 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:42,150 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:45,675 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:47,151 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:50,677 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:52,152 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:12:55,678 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:12:57,153 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:00,679 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:02,154 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:04,149 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:13:05,680 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:08,150 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:10,681 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:13,151 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:15,683 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:18,152 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:20,684 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:21,090 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:13:23,248 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:25,685 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:28,249 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:30,686 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:33,250 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:34,149 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:13:35,687 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:39,151 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:40,688 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:44,151 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:45,689 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:49,153 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:50,690 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:54,154 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:13:55,691 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-09 21:13:58,995 DEBUG   SenderThread:1921 [sender.py:send():334] send: telemetry
+2024-07-09 21:13:59,024 DEBUG   SenderThread:1921 [sender.py:send():334] send: config
+2024-07-09 21:13:59,100 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/code/_session_history.ipynb
+2024-07-09 21:13:59,100 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_created():275] file/dir created: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/code
+2024-07-09 21:13:59,143 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: log_artifact
+2024-07-09 21:13:59,143 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: log_artifact
+2024-07-09 21:13:59,927 INFO    Thread-18 :1921 [upload_job.py:push():101] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpj5_tyyi3
+2024-07-09 21:13:59,958 INFO    Thread-19 :1921 [upload_job.py:push():101] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpgbrw4nv4
+2024-07-09 21:14:00,146 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-09 21:14:00,650 INFO    SenderThread:1921 [sender.py:send_request_log_artifact():1379] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6OTUxODY2MzAw', 'digest': '1a3ae8aad3af738e7004ab17f329892b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0NzgyNTkwOA==', 'latestArtifact': None}, 'version': 'latest'}
+2024-07-09 21:14:00,650 DEBUG   SenderThread:1921 [sender.py:send():334] send: exit
+2024-07-09 21:14:00,650 INFO    SenderThread:1921 [sender.py:send_exit():557] handling exit code: 0
+2024-07-09 21:14:00,650 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:14:00,650 INFO    SenderThread:1921 [sender.py:send_exit():559] handling runtime: 205
+2024-07-09 21:14:00,651 INFO    SenderThread:1921 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-09 21:14:00,651 INFO    SenderThread:1921 [sender.py:send_exit():565] send defer
+2024-07-09 21:14:00,651 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: poll_exit
+2024-07-09 21:14:00,651 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,651 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 0
+2024-07-09 21:14:00,651 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,651 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-07-09 21:14:00,652 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 1
+2024-07-09 21:14:00,652 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,652 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 1
+2024-07-09 21:14:00,652 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,652 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-07-09 21:14:00,652 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 2
+2024-07-09 21:14:00,652 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,652 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 2
+2024-07-09 21:14:00,652 INFO    HandlerThread:1921 [system_monitor.py:finish():161] Stopping system monitor
+2024-07-09 21:14:00,653 DEBUG   SystemMonitor:1921 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-07-09 21:14:00,653 DEBUG   SystemMonitor:1921 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-07-09 21:14:00,653 INFO    HandlerThread:1921 [interfaces.py:finish():175] Joined cpu
+2024-07-09 21:14:00,653 INFO    HandlerThread:1921 [interfaces.py:finish():175] Joined disk
+2024-07-09 21:14:00,657 INFO    HandlerThread:1921 [interfaces.py:finish():175] Joined gpu
+2024-07-09 21:14:00,657 INFO    HandlerThread:1921 [interfaces.py:finish():175] Joined memory
+2024-07-09 21:14:00,657 INFO    HandlerThread:1921 [interfaces.py:finish():175] Joined network
+2024-07-09 21:14:00,657 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,657 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-07-09 21:14:00,657 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 3
+2024-07-09 21:14:00,657 DEBUG   SenderThread:1921 [sender.py:send():334] send: stats
+2024-07-09 21:14:00,657 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,657 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 3
+2024-07-09 21:14:00,657 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 4
+2024-07-09 21:14:00,658 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,658 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 4
+2024-07-09 21:14:00,658 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 5
+2024-07-09 21:14:00,658 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,658 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 5
+2024-07-09 21:14:00,658 DEBUG   SenderThread:1921 [sender.py:send():334] send: summary
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-07-09 21:14:00,658 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-07-09 21:14:00,658 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 6
+2024-07-09 21:14:00,658 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,658 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 6
+2024-07-09 21:14:00,658 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,659 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-07-09 21:14:00,660 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: status_report
+2024-07-09 21:14:00,788 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 7
+2024-07-09 21:14:00,788 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:00,788 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 7
+2024-07-09 21:14:00,788 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:00,788 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-07-09 21:14:01,101 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-summary.json
+2024-07-09 21:14:01,101 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:14:01,101 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/config.yaml
+2024-07-09 21:14:01,146 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-09 21:14:02,651 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 8
+2024-07-09 21:14:02,651 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: poll_exit
+2024-07-09 21:14:02,651 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:02,651 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 8
+2024-07-09 21:14:02,652 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:02,652 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-07-09 21:14:02,652 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 9
+2024-07-09 21:14:02,652 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:02,652 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 9
+2024-07-09 21:14:02,652 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:02,652 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-07-09 21:14:02,652 INFO    SenderThread:1921 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-07-09 21:14:03,102 INFO    Thread-12 :1921 [dir_watcher.py:_on_file_modified():292] file/dir modified: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:14:03,102 INFO    SenderThread:1921 [dir_watcher.py:finish():392] scan: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files
+2024-07-09 21:14:03,102 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/config.yaml config.yaml
+2024-07-09 21:14:03,102 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/conda-environment.yaml conda-environment.yaml
+2024-07-09 21:14:03,103 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/diff.patch diff.patch
+2024-07-09 21:14:03,103 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-metadata.json wandb-metadata.json
+2024-07-09 21:14:03,103 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-summary.json wandb-summary.json
+2024-07-09 21:14:03,104 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log output.log
+2024-07-09 21:14:03,104 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/requirements.txt requirements.txt
+2024-07-09 21:14:03,109 INFO    SenderThread:1921 [dir_watcher.py:finish():406] scan save: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-07-09 21:14:03,109 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 10
+2024-07-09 21:14:03,112 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:03,112 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 10
+2024-07-09 21:14:03,113 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:03,113 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-07-09 21:14:03,113 INFO    SenderThread:1921 [file_pusher.py:finish():160] shutting down file pusher
+2024-07-09 21:14:03,418 INFO    Thread-25 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/code/_session_history.ipynb
+2024-07-09 21:14:03,424 INFO    Thread-23 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/output.log
+2024-07-09 21:14:03,488 INFO    Thread-22 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/wandb-summary.json
+2024-07-09 21:14:03,492 INFO    Thread-20 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/config.yaml
+2024-07-09 21:14:03,558 INFO    Thread-21 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/conda-environment.yaml
+2024-07-09 21:14:03,738 INFO    Thread-24 :1921 [upload_job.py:push():143] Uploaded file /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/files/requirements.txt
+2024-07-09 21:14:03,939 INFO    Thread-11 :1921 [sender.py:transition_state():585] send defer: 11
+2024-07-09 21:14:03,939 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:03,939 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 11
+2024-07-09 21:14:03,939 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:03,939 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-07-09 21:14:03,939 INFO    SenderThread:1921 [file_pusher.py:join():165] waiting for file pusher
+2024-07-09 21:14:03,939 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 12
+2024-07-09 21:14:03,939 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:03,939 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 12
+2024-07-09 21:14:03,940 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:03,940 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-07-09 21:14:04,136 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 13
+2024-07-09 21:14:04,136 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:04,136 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 13
+2024-07-09 21:14:04,136 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:04,136 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-07-09 21:14:04,136 INFO    SenderThread:1921 [sender.py:transition_state():585] send defer: 14
+2024-07-09 21:14:04,137 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: defer
+2024-07-09 21:14:04,137 INFO    HandlerThread:1921 [handler.py:handle_request_defer():170] handle defer: 14
+2024-07-09 21:14:04,137 DEBUG   SenderThread:1921 [sender.py:send():334] send: final
+2024-07-09 21:14:04,137 DEBUG   SenderThread:1921 [sender.py:send():334] send: footer
+2024-07-09 21:14:04,137 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: defer
+2024-07-09 21:14:04,137 INFO    SenderThread:1921 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-07-09 21:14:04,138 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-09 21:14:04,138 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: poll_exit
+2024-07-09 21:14:04,138 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: server_info
+2024-07-09 21:14:04,138 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: get_summary
+2024-07-09 21:14:04,138 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: sampled_history
+2024-07-09 21:14:04,138 DEBUG   SenderThread:1921 [sender.py:send_request():361] send_request: server_info
+2024-07-09 21:14:04,220 DEBUG   HandlerThread:1921 [handler.py:handle_request():144] handle_request: shutdown
+2024-07-09 21:14:04,221 INFO    HandlerThread:1921 [handler.py:finish():841] shutting down handler
+2024-07-09 21:14:05,138 INFO    WriterThread:1921 [datastore.py:close():299] close: /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211033-bqlnkh61/run-bqlnkh61.wandb
+2024-07-09 21:14:05,220 INFO    SenderThread:1921 [sender.py:finish():1491] shutting down sender
+2024-07-09 21:14:05,220 INFO    SenderThread:1921 [file_pusher.py:finish():160] shutting down file pusher
+2024-07-09 21:14:05,220 INFO    SenderThread:1921 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a1b9fe5919684d9886e34e8cadfa5571/artifacts
+end_time: 1720659996726
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1b9fe5919684d9886e34e8cadfa5571
+run_name: sedate-donkey-622
+run_uuid: a1b9fe5919684d9886e34e8cadfa5571
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720659937923
+status: 3
+tags: []
+user_id: root

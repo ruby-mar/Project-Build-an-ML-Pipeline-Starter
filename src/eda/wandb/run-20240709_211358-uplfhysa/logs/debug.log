@@ -1,0 +1,46 @@
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_setup.py:_flush():68] Configure stats pid to 1875
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_setup.py:_flush():68] Loading settings from /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_init.py:_log_setup():478] Logging user logs to /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211358-uplfhysa/logs/debug.log
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_init.py:_log_setup():479] Logging internal logs to /root/miniconda3/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240709_211358-uplfhysa/logs/debug-internal.log
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_init.py:init():518] calling init triggers
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-07-09 21:13:58,993 INFO    MainThread:1875 [wandb_init.py:init():537] re-initializing run, found existing run on stack: bqlnkh61
+2024-07-09 21:13:58,995 INFO    MainThread:1875 [wandb_run.py:_finish():1844] finishing run ema1089-western-governors-university/nyc_airbnb/bqlnkh61
+2024-07-09 21:13:59,023 INFO    MainThread:1875 [jupyter.py:save_history():478] saving 5 cells to _session_history.ipynb
+2024-07-09 21:13:59,023 INFO    MainThread:1875 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-07-09 21:13:59,025 INFO    MainThread:1875 [jupyter.py:_save_ipynb():390] looking for notebook: eda.ipynb
+2024-07-09 21:13:59,143 INFO    MainThread:1875 [wandb_init.py:_jupyter_teardown():409] saved code and history: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fb63d4c1e50>
+2024-07-09 21:13:59,144 INFO    MainThread:1875 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-07-09 21:13:59,144 INFO    MainThread:1875 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-07-09 21:13:59,144 INFO    MainThread:1875 [wandb_run.py:_restore():2053] restore
+2024-07-09 21:13:59,144 INFO    MainThread:1875 [wandb_run.py:_restore():2059] restore done
+2024-07-09 21:14:05,222 INFO    MainThread:1875 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-07-09 21:14:05,222 INFO    MainThread:1875 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-07-09 21:14:05,223 INFO    MainThread:1875 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-07-09 21:14:05,226 INFO    MainThread:1875 [wandb_init.py:init():571] starting backend
+2024-07-09 21:14:05,226 INFO    MainThread:1875 [wandb_init.py:init():575] setting up manager
+2024-07-09 21:14:05,227 INFO    MainThread:1875 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-09 21:14:05,228 INFO    MainThread:1875 [wandb_init.py:init():582] backend started and connected
+2024-07-09 21:14:05,228 INFO    MainThread:1875 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-07-09 21:14:05,228 INFO    MainThread:1875 [wandb_init.py:init():670] updated telemetry
+2024-07-09 21:14:05,233 INFO    MainThread:1875 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-07-09 21:14:06,475 INFO    MainThread:1875 [wandb_run.py:_on_init():2121] communicating current version
+2024-07-09 21:14:06,544 INFO    MainThread:1875 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-09 21:14:06,544 INFO    MainThread:1875 [wandb_init.py:init():758] starting run threads in backend
+2024-07-09 21:14:07,994 INFO    MainThread:1875 [wandb_run.py:_console_start():2101] atexit reg
+2024-07-09 21:14:07,994 INFO    MainThread:1875 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-07-09 21:14:07,995 INFO    MainThread:1875 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-07-09 21:14:07,995 INFO    MainThread:1875 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-07-09 21:14:07,995 INFO    MainThread:1875 [wandb_init.py:init():798] run started, returning control to user process
+2024-07-09 21:15:10,954 INFO    MainThread:1875 [wandb_run.py:_finish():1844] finishing run ema1089-western-governors-university/nyc_airbnb/uplfhysa
+2024-07-09 21:15:10,955 INFO    MainThread:1875 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-07-09 21:15:10,955 INFO    MainThread:1875 [wandb_run.py:_restore():2053] restore
+2024-07-09 21:15:10,955 INFO    MainThread:1875 [wandb_run.py:_restore():2059] restore done
+2024-07-09 21:15:14,496 INFO    MainThread:1875 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-07-09 21:15:14,496 INFO    MainThread:1875 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-07-09 21:15:14,498 INFO    MainThread:1875 [wandb_run.py:_footer_sync_info():3383] logging synced files

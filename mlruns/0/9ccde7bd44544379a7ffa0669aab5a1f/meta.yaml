@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9ccde7bd44544379a7ffa0669aab5a1f/artifacts
+end_time: 1720660612875
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ccde7bd44544379a7ffa0669aab5a1f
+run_name: dazzling-bear-305
+run_uuid: 9ccde7bd44544379a7ffa0669aab5a1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720660555614
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/476b079544824ade97a76aada0072c28/artifacts
+end_time: 1720579645901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 476b079544824ade97a76aada0072c28
+run_name: casual-dolphin-141
+run_uuid: 476b079544824ade97a76aada0072c28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720579645144
+status: 4
+tags: []
+user_id: root

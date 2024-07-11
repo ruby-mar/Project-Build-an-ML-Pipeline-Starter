@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d1ea1c650ac54585a93e1b067d839885/artifacts
+end_time: 1720660613055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1ea1c650ac54585a93e1b067d839885
+run_name: worried-penguin-77
+run_uuid: d1ea1c650ac54585a93e1b067d839885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720660554150
+status: 4
+tags: []
+user_id: root

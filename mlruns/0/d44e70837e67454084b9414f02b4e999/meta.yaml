@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d44e70837e67454084b9414f02b4e999/artifacts
+end_time: 1720579391733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d44e70837e67454084b9414f02b4e999
+run_name: ambitious-deer-794
+run_uuid: d44e70837e67454084b9414f02b4e999
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720579390830
+status: 4
+tags: []
+user_id: root

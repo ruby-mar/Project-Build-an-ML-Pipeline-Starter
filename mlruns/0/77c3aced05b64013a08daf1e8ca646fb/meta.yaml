@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/77c3aced05b64013a08daf1e8ca646fb/artifacts
+end_time: 1720580633782
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77c3aced05b64013a08daf1e8ca646fb
+run_name: luxuriant-goat-117
+run_uuid: 77c3aced05b64013a08daf1e8ca646fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720580602403
+status: 3
+tags: []
+user_id: root

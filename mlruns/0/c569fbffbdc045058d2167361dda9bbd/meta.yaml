@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c569fbffbdc045058d2167361dda9bbd/artifacts
+end_time: 1720659996836
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c569fbffbdc045058d2167361dda9bbd
+run_name: placid-sheep-442
+run_uuid: c569fbffbdc045058d2167361dda9bbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720659930110
+status: 3
+tags: []
+user_id: root

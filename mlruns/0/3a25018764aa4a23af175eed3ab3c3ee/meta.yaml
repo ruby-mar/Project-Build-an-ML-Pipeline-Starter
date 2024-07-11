@@ -1,0 +1,15 @@
+artifact_uri: file:///root/miniconda3/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3a25018764aa4a23af175eed3ab3c3ee/artifacts
+end_time: 1720580103764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a25018764aa4a23af175eed3ab3c3ee
+run_name: sneaky-fawn-990
+run_uuid: 3a25018764aa4a23af175eed3ab3c3ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720580103069
+status: 4
+tags: []
+user_id: root
